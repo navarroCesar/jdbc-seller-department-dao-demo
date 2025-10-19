@@ -14,6 +14,11 @@ public class Program2 {
 		Department dep = new Department(null, "Food");
 		dd.insert(dep);
 		System.out.println(dep);
+		
+		System.out.println("\n==== TEST: department update ====");
+		dep.setName("Drinks");
+		dd.update(dep);
+		System.out.println(dep);
 
 	}
 
